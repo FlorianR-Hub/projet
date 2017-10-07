@@ -2,6 +2,9 @@ language: ruby
 rvm:
 - 2.2
 deploy:
+  provider: heroku
   api_key:
-    secure: b90f6bb7-3bf7-4c54-b388-7d8be5765a77
-  app: mon-projet
+    secure: Cuu2XBdi7kbKdDdWSOyd65RZLIEPkx/iG0OJQkhat8dr+NrnQqd4+4J7Mos9GuV0okRMQYAxADgsjmk0phWFfgeyIalDbEdI1PI8oNMUjAj7BL3V0tz+pwJNiUyf4MxWCSBQJ0abb0Fcs57D8A7/3XCoZTk55g3TL6Dmd2u8qBMdLb5NS+8Y3syfcKOn5swhAiaviowQlT9j/0Cx7+x/6aZMdk63RuV+5BRWDuArGJ9CsjZhXCxgrLtgMbnfMtNaC87DaeXKJ1O0bdtY5+S3eJZ43qMeYk3r9Va+YcA6ctwbQVi/KYPvCaaLVSVCGnIz5fW0QMQZzauzLTPzYFsVOQZyacXYslUWa6+XK7zHLEtRLOyW0k32/1043HqpNZ9qP7gTcR6NT/YbSbwglJ1cxqnW4z4kIYKB5S59+2IxpbHGDOh2DTr4EGj/R9WFqawfof1dxVvlWummJ9ta61Mc9ooxJ/NM+HYj4MV44O1ldF47EQa8xZTkrScPrQcX4RhfY5V8DNLtawH418KHuwjz5h775SQaXM5tHAQHG2FKgJZ4iBf07YIrs4ETRR88YZfTMxhXUyAWb4+/zZMLg4TwboVz7fP2/B8YIpKTeYiFwojVooal6R5KlXESSDB6CCwGXZQoZ9HHrMl+LVSyfjqnfUclmn5XTpaIvC71Gz37K+A=
+  app: lpa2-projet
+  on:
+    repo: FlorianR-UTBM/projet
