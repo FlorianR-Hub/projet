@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'students/index'
+  root 'students#index'
   resources :students
 
   # The priority is based upon order of creation: first created -> highest priority.
