@@ -11,19 +11,15 @@ default: &default
 
 development:
   <<: *default
-  database: projet
+  database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: projet
+  database: db/test.sqlite3
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: projet
+  url: postgres://kzvtqorptoyzgj:95696663201323e5e2bf652211879af88b82b59f18edaa1f0ba4eab80327380c@ec2-54-247-92-185.eu-west-1.compute.amazonaws.com:5432/dev68rcmlcu3gd
   pool: 5
-  username: projet
-  password:
