@@ -21,5 +21,10 @@ test:
   database: db/test.sqlite3
 
 production:
-  url: postgres://kzvtqorptoyzgj:95696663201323e5e2bf652211879af88b82b59f18edaa1f0ba4eab80327380c@ec2-54-247-92-185.eu-west-1.compute.amazonaws.com:5432/dev68rcmlcu3gd
+  adapter: postgresql
+  host: ec2-54-247-92-185.eu-west-1.compute.amazonaws.com
+  database: dev68rcmlcu3gd
+  user: kzvtqorptoyzgj
+  port: 5432
+  password: 95696663201323e5e2bf652211879af88b82b59f18edaa1f0ba4eab80327380c
   pool: 5
