@@ -8,3 +8,4 @@ deploy:
   app: lpa2-projet
   on:
     repo: FlorianR-UTBM/projet
+  run: "rake db:migrate"
