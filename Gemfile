@@ -42,3 +42,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 gem 'nominatim', '~> 0.0.6'
+
+gem 'forecast_io'
