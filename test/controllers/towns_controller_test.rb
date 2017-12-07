@@ -30,7 +30,7 @@ class TownsControllerTest < ActionController::TestCase
   test "should fail if town does not exist" do
     VCR.use_cassette("inexisting_town") do
       assert_no_difference('Town.count') do
-        post :create, town: { name: @inexisting.name }
+        post :create, town: { nom: @inexisting.nom }
       end
     end
     
