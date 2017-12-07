@@ -11,6 +11,6 @@ two:
   longitude: 1.5
   
 inexisting:
-  name: inexistingTown
+  nom: inexistingTown
   latitude: 1.5
   longitude: 1.5
