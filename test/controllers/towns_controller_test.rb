@@ -20,7 +20,7 @@ class TownsControllerTest < ActionController::TestCase
   test "should create town" do
     VCR.use_cassette("new_town") do
       assert_difference('Town.count') do
-        post :create, town: { latitude: @town.latitude, longitude: @town.longitude, nom: @town.nom }
+        post :create, town: { nom: @town.nom }
       end
     end
 

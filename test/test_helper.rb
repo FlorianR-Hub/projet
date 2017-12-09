@@ -12,4 +12,4 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = "vcr/vcr_cassettes"
   config.hook_into :faraday
-end
+end 
